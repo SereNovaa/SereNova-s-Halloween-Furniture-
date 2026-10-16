@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "halloween_furniture_mod:block/green_halloween_cauldron"
+    },
+    "facing=east": {
+      "model": "halloween_furniture_mod:block/green_halloween_cauldron",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "halloween_furniture_mod:block/green_halloween_cauldron",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "halloween_furniture_mod:block/green_halloween_cauldron",
+      "y": 270
+    }
+  }
+}

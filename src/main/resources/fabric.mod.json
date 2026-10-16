@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "halloween_furniture_mod",
+  "version": "1.0.0",
+  "name": "SereNova's Halloween Furniture",
+  "description": "Beta of a furniture mod I may or may not finish. It has some issues that I will eventually work out. For now it just has 3 colors of halloween style cauldrons, but I plan to add more items over time. Created to compliment Macaw's holiday mod (i.e. I am mostly adding items that mod does not already cover.",
+  "authors": [
+    "SereNova"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.halloweenfurnituremod.HalloweenFurnitureModMod"
+    ],
+    "client": [
+      "net.mcreator.halloweenfurnituremod.HalloweenFurnitureModModClient"
+    ]
+  },
+  "mixins": [
+    "halloween_furniture_mod.mixins.json"
+  ],
+  "accessWidener": "META-INF/halloween_furniture_mod.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "halloween_furniture_mod:custom/halloween_cauldron_nomesh_-_java",
+  "textures": {
+    "all": "halloween_furniture_mod:block/halloween_cauldron_bottom_dark",
+    "particle": "halloween_furniture_mod:block/halloween_cauldron_bottom_dark",
+    "3": "halloween_furniture_mod:block/animated_cauldron_potion",
+    "5": "halloween_furniture_mod:block/halloween_cauldron_dark",
+    "7": "halloween_furniture_mod:block/halloween_cauldron_bottom_dark"
+  }
+}

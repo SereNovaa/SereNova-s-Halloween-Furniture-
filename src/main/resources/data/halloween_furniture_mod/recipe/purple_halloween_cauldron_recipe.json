@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": "minecraft:iron_block",
+    "b": "minecraft:purple_dye",
+    "c": "minecraft:ominous_bottle",
+    "d": "minecraft:soul_sand"
+  },
+  "result": {
+    "id": "halloween_furniture_mod:purple_halloween_cauldron",
+    "count": 1
+  }
+}

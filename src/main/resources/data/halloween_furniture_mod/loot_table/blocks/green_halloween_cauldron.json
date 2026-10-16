@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "halloween_furniture_mod:blocks/green_halloween_cauldron",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "halloween_furniture_mod:green_halloween_cauldron"
+        }
+      ]
+    }
+  ]
+}
